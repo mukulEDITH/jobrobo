@@ -1,0 +1,53 @@
+/* ContactList.css */
+
+/* Style for the entire ContactList component */
+.ContactList {
+  text-align: center;
+}
+
+/* Style for the heading */
+.ContactList h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style for the table */
+.ContactList table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+/* Style for table headers (th) */
+.ContactList th {
+  background-color: #bb68c8e7;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+/* Style for table cells (td) */
+.ContactList td {
+  border: 1px solid  #bb68c8e7;
+  padding: 8px;
+}
+
+/* Add hover effect to table rows */
+.ContactList tr:hover {
+  background-color:  #e8b9f0e7;
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 10px; 
+  padding: 10px 20px; 
+  background-color:  #bb68c8e7; 
+  color: black; 
+  cursor: pointer; 
+}
+
+button:hover {
+  background-color: #e6ccf1;
+}
+
